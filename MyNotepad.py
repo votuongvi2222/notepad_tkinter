@@ -165,7 +165,8 @@ class MyNotepad:
 								image=self.__newIcon,
 								relief=FLAT, 
 								command=self.__newFile, 
-								bg='white')
+								bg='white',
+								cursor='hand2')
 		self.__newBtn.pack(side=LEFT, 
 							padx=1, 
 							pady=1)
@@ -175,7 +176,8 @@ class MyNotepad:
 								image=self.__openIcon,
 								relief=FLAT, 
 								command=self.__openFile, 
-								bg='white')
+								bg='white',
+								cursor='hand2')
 		self.__openBtn.pack(side=LEFT, 
 							padx=1, 
 							pady=1)
@@ -185,7 +187,8 @@ class MyNotepad:
 								image=self.__saveIcon,
 								relief=FLAT, 
 								command=self.__saveFile, 
-								bg='white')
+								bg='white',
+								cursor='hand2')
 		self.__saveBtn.pack(side=LEFT, 
 							padx=1, 
 							pady=1)
@@ -195,7 +198,8 @@ class MyNotepad:
 								image=self.__exitIcon,
 								relief=FLAT, 
 								command=self.__quitApplication, 
-								bg='white')
+								bg='white',
+								cursor='hand2')
 		self.__exitBtn.pack(side=LEFT, 
 							padx=1, 
 							pady=1)
